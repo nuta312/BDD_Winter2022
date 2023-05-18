@@ -1,5 +1,4 @@
 package runners;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -8,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src\\test\\resources\\features",
         glue = "step_defs",
-        tags = "@smoke",
+        tags = "@regress",
         dryRun = false,
         plugin = {
                 "pretty",
@@ -18,6 +17,5 @@ import org.junit.runner.RunWith;
         publish = true
 
 )
-public class SmokeRunner {
-
+public class RegressionRunner {
 }

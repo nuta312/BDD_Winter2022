@@ -1,4 +1,4 @@
-@ui
+@smoke
 Feature: Background
 
 
